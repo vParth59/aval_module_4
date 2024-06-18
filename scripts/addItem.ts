@@ -1,9 +1,6 @@
 import { ethers } from "hardhat";
 import { contractAddress, deployer, items } from "../helper";
 
-const itemName = "Shoes";
-const itemPrice = 30;
-
 export async function rateOwnerChange() {
   console.log(`Token Contract ayt at ${contractAddress}`);
 

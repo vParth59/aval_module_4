@@ -17,6 +17,8 @@ export async function rateOwnerChange() {
 
   const transferTx = await _contract.purchaseItem(itemId);
 
+  console.log("The transfer transaction is ", transferTx.hash);
+
   const balanceAfter = await _contract.balanceOf(deployer);
 
   console.log("Balance: after redeem " + balanceAfter);

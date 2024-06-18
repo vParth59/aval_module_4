@@ -1,5 +1,4 @@
 const hre = require("hardhat");
-const ethers = require("ethers");
 import {
   contractAddress,
   deployer,

@@ -6,8 +6,6 @@ import {
   mintAmount,
 } from "../helper";
 
-const recieverAddress = "0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266";
-
 export async function mint() {
   const _contract = await hre.ethers.getContractAt(
     "DEGENGMAINGTOKEN",
